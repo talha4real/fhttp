@@ -13,7 +13,7 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/ShadeRobotics/fhttp/http2/hpack"
+	"github.com/talha4real/fhttp/http2/hpack"
 )
 
 func testFramer() (*Framer, *bytes.Buffer) {

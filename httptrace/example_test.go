@@ -9,7 +9,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/ShadeRobotics/fhttp/httptrace"
+	"github.com/talha4real/fhttp/httptrace"
 )
 
 func Example() {

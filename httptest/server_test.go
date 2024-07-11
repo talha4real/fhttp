@@ -10,7 +10,7 @@ import (
 	"net"
 	"testing"
 
-	http "github.com/ShadeRobotics/fhttp"
+	http "github.com/talha4real/fhttp"
 )
 
 type newServerFunc func(http.Handler) *Server

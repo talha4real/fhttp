@@ -9,7 +9,6 @@ import (
 	"compress/gzip"
 	"compress/zlib"
 	"context"
-	tls "github.com/ShadeRobotics/utls"
 	"errors"
 	"flag"
 	"fmt"
@@ -28,8 +27,10 @@ import (
 	"testing"
 	"time"
 
-	http "github.com/ShadeRobotics/fhttp"
-	"github.com/ShadeRobotics/fhttp/httptest"
+	tls "github.com/talha4real/utls"
+
+	http "github.com/talha4real/fhttp"
+	"github.com/talha4real/fhttp/httptest"
 
 	"golang.org/x/net/http2/hpack"
 )
@@ -2678,8 +2679,9 @@ func readBodyHandler(t *testing.T, want string) func(w http.ResponseWriter, r *h
 }
 
 // TestServerWithCurl currently fails, hence the LenientCipherSuites test. See:
-//   https://github.com/tatsuhiro-t/nghttp2/issues/140 &
-//   http://sourceforge.net/p/curl/bugs/1472/
+//
+//	https://github.com/tatsuhiro-t/nghttp2/issues/140 &
+//	http://sourceforge.net/p/curl/bugs/1472/
 func TestServerWithCurl(t *testing.T)                     { testServerWithCurl(t, false) }
 func TestServerWithCurl_LenientCipherSuites(t *testing.T) { testServerWithCurl(t, true) }
 

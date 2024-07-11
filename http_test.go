@@ -13,7 +13,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ShadeRobotics/fhttp/internal/testenv"
+	"github.com/talha4real/fhttp/internal/testenv"
 )
 
 func TestForeachHeaderElement(t *testing.T) {

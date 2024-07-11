@@ -1,4 +1,4 @@
-module github.com/ShadeRobotics/fhttp
+module github.com/talha4real/fhttp
 
 go 1.16
 

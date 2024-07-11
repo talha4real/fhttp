@@ -9,8 +9,8 @@ import (
 	"reflect"
 	"testing"
 
-	http "github.com/ShadeRobotics/fhttp"
-	"github.com/ShadeRobotics/fhttp/http2/hpack"
+	http "github.com/talha4real/fhttp"
+	"github.com/talha4real/fhttp/http2/hpack"
 )
 
 func TestPushPromiseHeadersToHTTPRequest(t *testing.T) {

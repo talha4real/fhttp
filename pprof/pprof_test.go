@@ -16,9 +16,9 @@ import (
 	"testing"
 	"time"
 
-	http "github.com/ShadeRobotics/fhttp"
-	"github.com/ShadeRobotics/fhttp/httptest"
-	"github.com/ShadeRobotics/fhttp/internal/profile"
+	http "github.com/talha4real/fhttp"
+	"github.com/talha4real/fhttp/httptest"
+	"github.com/talha4real/fhttp/internal/profile"
 )
 
 // TestDescriptions checks that the profile names under runtime/pprof package

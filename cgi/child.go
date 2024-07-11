@@ -9,7 +9,6 @@ package cgi
 
 import (
 	"bufio"
-	tls "github.com/ShadeRobotics/utls"
 	"errors"
 	"fmt"
 	"io"
@@ -19,7 +18,9 @@ import (
 	"strconv"
 	"strings"
 
-	http "github.com/ShadeRobotics/fhttp"
+	tls "github.com/talha4real/utls"
+
+	http "github.com/talha4real/fhttp"
 )
 
 // Request returns the HTTP request as represented in the current

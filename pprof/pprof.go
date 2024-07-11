@@ -74,8 +74,8 @@ import (
 	"strings"
 	"time"
 
-	http "github.com/ShadeRobotics/fhttp"
-	"github.com/ShadeRobotics/fhttp/internal/profile"
+	http "github.com/talha4real/fhttp"
+	"github.com/talha4real/fhttp/internal/profile"
 )
 
 func init() {

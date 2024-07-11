@@ -18,7 +18,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ShadeRobotics/fhttp/internal"
+	"github.com/talha4real/fhttp/internal"
 )
 
 type respTest struct {

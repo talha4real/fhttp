@@ -12,7 +12,7 @@ import (
 	"net/textproto"
 	"sync"
 
-	http "github.com/ShadeRobotics/fhttp"
+	http "github.com/talha4real/fhttp"
 )
 
 var (

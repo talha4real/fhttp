@@ -22,7 +22,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ShadeRobotics/fhttp/internal/cfg"
+	"github.com/talha4real/fhttp/internal/cfg"
 )
 
 // Builder reports the name of the builder running this test

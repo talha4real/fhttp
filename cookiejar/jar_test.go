@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	http "github.com/ShadeRobotics/fhttp"
+	http "github.com/talha4real/fhttp"
 )
 
 // tNow is the synthetic current time used as now during testing.

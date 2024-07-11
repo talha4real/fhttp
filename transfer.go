@@ -18,8 +18,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ShadeRobotics/fhttp/httptrace"
-	"github.com/ShadeRobotics/fhttp/internal"
+	"github.com/talha4real/fhttp/httptrace"
+	"github.com/talha4real/fhttp/internal"
 
 	"golang.org/x/net/http/httpguts"
 )

@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ShadeRobotics/fhttp/internal/race"
+	"github.com/talha4real/fhttp/internal/race"
 )
 
 var headerWriteTests = []struct {

@@ -12,7 +12,7 @@ import (
 	"os"
 	"os/signal"
 
-	http "github.com/ShadeRobotics/fhttp"
+	http "github.com/talha4real/fhttp"
 )
 
 func ExampleHijacker() {

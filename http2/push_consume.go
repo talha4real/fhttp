@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"net/url"
 
-	http "github.com/ShadeRobotics/fhttp"
+	http "github.com/talha4real/fhttp"
 )
 
 var (

@@ -13,7 +13,7 @@ import (
 	"strings"
 	"testing"
 
-	http "github.com/ShadeRobotics/fhttp"
+	http "github.com/talha4real/fhttp"
 )
 
 func TestRequest(t *testing.T) {

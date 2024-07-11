@@ -9,9 +9,9 @@ import (
 	"log"
 	"net/url"
 
-	http "github.com/ShadeRobotics/fhttp"
-	"github.com/ShadeRobotics/fhttp/cookiejar"
-	"github.com/ShadeRobotics/fhttp/httptest"
+	http "github.com/talha4real/fhttp"
+	"github.com/talha4real/fhttp/cookiejar"
+	"github.com/talha4real/fhttp/httptest"
 )
 
 func ExampleNew() {

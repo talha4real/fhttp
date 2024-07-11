@@ -14,7 +14,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ShadeRobotics/fhttp/http2/hpack"
+	"github.com/talha4real/fhttp/http2/hpack"
 	"golang.org/x/net/http/httpguts"
 )
 

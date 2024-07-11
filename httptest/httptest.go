@@ -8,11 +8,12 @@ package httptest
 import (
 	"bufio"
 	"bytes"
-	tls "github.com/ShadeRobotics/utls"
 	"io"
 	"strings"
 
-	http "github.com/ShadeRobotics/fhttp"
+	tls "github.com/talha4real/utls"
+
+	http "github.com/talha4real/fhttp"
 )
 
 // NewRequest returns a new incoming server Request, suitable

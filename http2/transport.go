@@ -11,7 +11,6 @@ import (
 	"bytes"
 	"context"
 	"crypto/rand"
-	tls "github.com/ShadeRobotics/utls"
 	"errors"
 	"fmt"
 	"io"
@@ -28,10 +27,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	http "github.com/ShadeRobotics/fhttp"
-	"github.com/ShadeRobotics/fhttp/httptrace"
+	tls "github.com/talha4real/utls"
 
-	"github.com/ShadeRobotics/fhttp/http2/hpack"
+	http "github.com/talha4real/fhttp"
+	"github.com/talha4real/fhttp/httptrace"
+
+	"github.com/talha4real/fhttp/http2/hpack"
 	"golang.org/x/net/http/httpguts"
 	"golang.org/x/net/idna"
 )

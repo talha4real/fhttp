@@ -11,9 +11,9 @@ import (
 	"net/url"
 	"strings"
 
-	http "github.com/ShadeRobotics/fhttp"
-	"github.com/ShadeRobotics/fhttp/httptest"
-	"github.com/ShadeRobotics/fhttp/httputil"
+	http "github.com/talha4real/fhttp"
+	"github.com/talha4real/fhttp/httptest"
+	"github.com/talha4real/fhttp/httputil"
 )
 
 func ExampleDumpRequest() {

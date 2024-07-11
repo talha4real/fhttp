@@ -2,13 +2,9 @@ package http2_test
 
 import (
 	"bytes"
-	tls "github.com/ShadeRobotics/utls"
 	"crypto/x509"
 	"errors"
 	"fmt"
-	"github.com/ShadeRobotics/fhttp/cookiejar"
-	"github.com/ShadeRobotics/fhttp/httptest"
-	"golang.org/x/net/publicsuffix"
 	"log"
 	ghttp "net/http"
 	"net/url"
@@ -16,8 +12,13 @@ import (
 	"strings"
 	"testing"
 
-	http "github.com/ShadeRobotics/fhttp"
-	"github.com/ShadeRobotics/fhttp/http2"
+	"github.com/talha4real/fhttp/cookiejar"
+	"github.com/talha4real/fhttp/httptest"
+	tls "github.com/talha4real/utls"
+	"golang.org/x/net/publicsuffix"
+
+	http "github.com/talha4real/fhttp"
+	"github.com/talha4real/fhttp/http2"
 )
 
 // Tests if connection settings are written correctly

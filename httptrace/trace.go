@@ -8,13 +8,14 @@ package httptrace
 
 import (
 	"context"
-	tls "github.com/ShadeRobotics/utls"
 	"net"
 	"net/textproto"
 	"reflect"
 	"time"
 
-	"github.com/ShadeRobotics/fhttp/internal/nettrace"
+	tls "github.com/talha4real/utls"
+
+	"github.com/talha4real/fhttp/internal/nettrace"
 )
 
 // unique type to prevent assignment.

@@ -27,8 +27,8 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/ShadeRobotics/fhttp"
-	"github.com/ShadeRobotics/fhttp/httptest"
+	. "github.com/talha4real/fhttp"
+	"github.com/talha4real/fhttp/httptest"
 )
 
 const (

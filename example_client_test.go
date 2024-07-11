@@ -1,19 +1,19 @@
 package http_test
 
 import (
-	tls "github.com/ShadeRobotics/utls"
 	"crypto/x509"
 	"encoding/json"
 	"flag"
 	"fmt"
+	tls "github.com/talha4real/utls"
 	"io"
 	"net/url"
 	"os"
 	"strings"
 	"testing"
 
-	http "github.com/ShadeRobotics/fhttp"
-	"github.com/ShadeRobotics/fhttp/http2"
+	http "github.com/talha4real/fhttp"
+	"github.com/talha4real/fhttp/http2"
 )
 
 // Basic http test with Header Order + enable push

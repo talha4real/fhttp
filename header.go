@@ -12,7 +12,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ShadeRobotics/fhttp/httptrace"
+	"github.com/talha4real/fhttp/httptrace"
 )
 
 // A Header represents the Key-value pairs in an HTTP header.

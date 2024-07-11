@@ -11,7 +11,7 @@ import (
 	"strings"
 	"testing"
 
-	http "github.com/ShadeRobotics/fhttp"
+	http "github.com/talha4real/fhttp"
 )
 
 var sizeTests = []struct {

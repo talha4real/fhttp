@@ -7,15 +7,16 @@ package http_test
 import (
 	"bufio"
 	"bytes"
-	tls "github.com/ShadeRobotics/utls"
 	"crypto/x509"
 	"fmt"
 	"io"
 	"strings"
 	"testing"
 
-	. "github.com/ShadeRobotics/fhttp"
-	"github.com/ShadeRobotics/fhttp/httptest"
+	tls "github.com/talha4real/utls"
+
+	. "github.com/talha4real/fhttp"
+	"github.com/talha4real/fhttp/httptest"
 )
 
 func TestNextProtoUpgrade(t *testing.T) {

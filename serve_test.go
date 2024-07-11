@@ -12,7 +12,6 @@ import (
 	"compress/gzip"
 	"compress/zlib"
 	"context"
-	tls "github.com/ShadeRobotics/utls"
 	"encoding/json"
 	"errors"
 	"fmt"
@@ -36,11 +35,13 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/ShadeRobotics/fhttp"
-	"github.com/ShadeRobotics/fhttp/httptest"
-	"github.com/ShadeRobotics/fhttp/httputil"
-	"github.com/ShadeRobotics/fhttp/internal"
-	"github.com/ShadeRobotics/fhttp/internal/testenv"
+	tls "github.com/talha4real/utls"
+
+	. "github.com/talha4real/fhttp"
+	"github.com/talha4real/fhttp/httptest"
+	"github.com/talha4real/fhttp/httputil"
+	"github.com/talha4real/fhttp/internal"
+	"github.com/talha4real/fhttp/internal/testenv"
 )
 
 type dummyAddr string
@@ -5027,10 +5028,11 @@ func benchmarkClientServerParallel(b *testing.B, parallelism int, useTLS bool) {
 // The client code runs in a subprocess.
 //
 // For use like:
-//   $ go test -c
-//   $ ./http.test -test.run=XX -test.bench=BenchmarkServer -test.benchtime=15s -test.cpuprofile=http.prof
-//   $ go tool pprof http.test http.prof
-//   (pprof) web
+//
+//	$ go test -c
+//	$ ./http.test -test.run=XX -test.bench=BenchmarkServer -test.benchtime=15s -test.cpuprofile=http.prof
+//	$ go tool pprof http.test http.prof
+//	(pprof) web
 func BenchmarkServer(b *testing.B) {
 	b.ReportAllocs()
 	// Child process mode;

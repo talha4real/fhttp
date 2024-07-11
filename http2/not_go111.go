@@ -7,7 +7,7 @@
 package http2
 
 import (
-	"github.com/ShadeRobotics/fhttp/httptrace"
+	"github.com/talha4real/fhttp/httptrace"
 	"net/textproto"
 )
 

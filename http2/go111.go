@@ -9,7 +9,7 @@ package http2
 import (
 	"net/textproto"
 
-	"github.com/ShadeRobotics/fhttp/httptrace"
+	"github.com/talha4real/fhttp/httptrace"
 )
 
 func traceHasWroteHeaderField(trace *httptrace.ClientTrace) bool {

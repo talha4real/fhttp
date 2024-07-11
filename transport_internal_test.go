@@ -8,16 +8,16 @@ package http
 
 import (
 	"bytes"
-	tls "github.com/ShadeRobotics/utls"
 	"errors"
 	"fmt"
+	tls "github.com/talha4real/utls"
 	"io"
 	"io/ioutil"
 	"net"
 	"strings"
 	"testing"
 
-	"github.com/ShadeRobotics/fhttp/internal"
+	"github.com/talha4real/fhttp/internal"
 )
 
 // Issue 15446: incorrect wrapping of errors when server closes an idle connection.

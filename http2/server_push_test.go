@@ -15,7 +15,7 @@ import (
 	"testing"
 	"time"
 
-	http "github.com/ShadeRobotics/fhttp"
+	http "github.com/talha4real/fhttp"
 )
 
 func TestServer_Push_Success(t *testing.T) {

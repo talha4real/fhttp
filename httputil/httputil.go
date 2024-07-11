@@ -9,7 +9,7 @@ package httputil
 import (
 	"io"
 
-	"github.com/ShadeRobotics/fhttp/internal"
+	"github.com/talha4real/fhttp/internal"
 )
 
 // NewChunkedReader returns a new chunkedReader that translates the data read from r

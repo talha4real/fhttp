@@ -15,9 +15,9 @@ import (
 	"testing"
 	"time"
 
-	http "github.com/ShadeRobotics/fhttp"
+	http "github.com/talha4real/fhttp"
 
-	"github.com/ShadeRobotics/fhttp/http2/hpack"
+	"github.com/talha4real/fhttp/http2/hpack"
 )
 
 var knownFailing = flag.Bool("known_failing", false, "Run known-failing tests.")

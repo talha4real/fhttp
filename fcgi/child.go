@@ -17,8 +17,8 @@ import (
 	"sync"
 	"time"
 
-	http "github.com/ShadeRobotics/fhttp"
-	"github.com/ShadeRobotics/fhttp/cgi"
+	http "github.com/talha4real/fhttp"
+	"github.com/talha4real/fhttp/cgi"
 )
 
 // request holds the state for an in-progress request. As soon as it's complete,

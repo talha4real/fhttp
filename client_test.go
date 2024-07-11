@@ -9,7 +9,6 @@ package http_test
 import (
 	"bytes"
 	"context"
-	tls "github.com/ShadeRobotics/utls"
 	"encoding/base64"
 	"errors"
 	"fmt"
@@ -25,9 +24,11 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/ShadeRobotics/fhttp"
-	"github.com/ShadeRobotics/fhttp/cookiejar"
-	"github.com/ShadeRobotics/fhttp/httptest"
+	tls "github.com/talha4real/utls"
+
+	. "github.com/talha4real/fhttp"
+	"github.com/talha4real/fhttp/cookiejar"
+	"github.com/talha4real/fhttp/httptest"
 )
 
 var robotsTxtHandler = HandlerFunc(func(w ResponseWriter, r *Request) {

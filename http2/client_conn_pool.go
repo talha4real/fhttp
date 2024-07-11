@@ -7,10 +7,11 @@
 package http2
 
 import (
-	tls "github.com/ShadeRobotics/utls"
 	"sync"
 
-	http "github.com/ShadeRobotics/fhttp"
+	tls "github.com/talha4real/utls"
+
+	http "github.com/talha4real/fhttp"
 )
 
 // ClientConnPool manages a pool of HTTP/2 client connections.

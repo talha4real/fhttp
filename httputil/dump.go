@@ -15,7 +15,7 @@ import (
 	"strings"
 	"time"
 
-	http "github.com/ShadeRobotics/fhttp"
+	http "github.com/talha4real/fhttp"
 )
 
 // drainBody reads all of b to memory and then returns two equivalent

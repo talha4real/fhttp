@@ -14,7 +14,7 @@ import (
 	"strings"
 	"testing"
 
-	. "github.com/ShadeRobotics/fhttp"
+	. "github.com/talha4real/fhttp"
 )
 
 var sniffTests = []struct {

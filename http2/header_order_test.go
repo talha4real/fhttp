@@ -2,8 +2,8 @@ package http2
 
 import (
 	"bytes"
-	http "github.com/ShadeRobotics/fhttp"
-	"github.com/ShadeRobotics/fhttp/httptrace"
+	http "github.com/talha4real/fhttp"
+	"github.com/talha4real/fhttp/httptrace"
 	"log"
 	"strings"
 	"testing"

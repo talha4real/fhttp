@@ -21,8 +21,8 @@ import (
 	"strings"
 	"testing"
 
-	. "github.com/ShadeRobotics/fhttp"
-	"github.com/ShadeRobotics/fhttp/httptest"
+	. "github.com/talha4real/fhttp"
+	"github.com/talha4real/fhttp/httptest"
 )
 
 func TestQuery(t *testing.T) {

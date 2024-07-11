@@ -11,8 +11,8 @@ import (
 	"compress/gzip"
 	"crypto/rand"
 	"crypto/sha1"
-	tls "github.com/ShadeRobotics/utls"
 	"fmt"
+	tls "github.com/talha4real/utls"
 	"hash"
 	"io"
 	"log"
@@ -28,9 +28,9 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/ShadeRobotics/fhttp"
-	"github.com/ShadeRobotics/fhttp/httptest"
-	"github.com/ShadeRobotics/fhttp/httputil"
+	. "github.com/talha4real/fhttp"
+	"github.com/talha4real/fhttp/httptest"
+	"github.com/talha4real/fhttp/httputil"
 )
 
 type clientServerTest struct {

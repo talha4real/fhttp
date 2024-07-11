@@ -11,8 +11,8 @@ import (
 	"log"
 	"testing"
 
-	http "github.com/ShadeRobotics/fhttp"
-	"github.com/ShadeRobotics/fhttp/http2"
+	http "github.com/talha4real/fhttp"
+	"github.com/talha4real/fhttp/http2"
 )
 
 func TestSettingsAckSwallowWriter(t *testing.T) {

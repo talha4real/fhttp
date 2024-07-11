@@ -9,8 +9,8 @@ import (
 	"io"
 	"log"
 
-	http "github.com/ShadeRobotics/fhttp"
-	"github.com/ShadeRobotics/fhttp/httptest"
+	http "github.com/talha4real/fhttp"
+	"github.com/talha4real/fhttp/httptest"
 )
 
 func ExampleResponseRecorder() {

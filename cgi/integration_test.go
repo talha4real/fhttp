@@ -19,9 +19,9 @@ import (
 	"testing"
 	"time"
 
-	http "github.com/ShadeRobotics/fhttp"
-	"github.com/ShadeRobotics/fhttp/httptest"
-	"github.com/ShadeRobotics/fhttp/internal/testenv"
+	http "github.com/talha4real/fhttp"
+	"github.com/talha4real/fhttp/httptest"
+	"github.com/talha4real/fhttp/internal/testenv"
 )
 
 // This test is a CGI host (testing host.go) that runs its own binary

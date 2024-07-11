@@ -2,27 +2,28 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
+//go:build aix || darwin || dragonfly || freebsd || linux || netbsd || openbsd || solaris || windows
 // +build aix darwin dragonfly freebsd linux netbsd openbsd solaris windows
 
 /*
 The h2i command is an interactive HTTP/2 console.
 
 Usage:
-  $ h2i [flags] <hostname>
+
+	$ h2i [flags] <hostname>
 
 Interactive commands in the console: (all parts case-insensitive)
 
-  ping [data]
-  settings ack
-  settings FOO=n BAR=z
-  headers      (open a new stream by typing HTTP/1.1)
+	ping [data]
+	settings ack
+	settings FOO=n BAR=z
+	headers      (open a new stream by typing HTTP/1.1)
 */
 package main
 
 import (
 	"bufio"
 	"bytes"
-	tls "github.com/ShadeRobotics/utls"
 	"errors"
 	"flag"
 	"fmt"
@@ -35,8 +36,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ShadeRobotics/fhttp/http2"
-	"github.com/ShadeRobotics/fhttp/http2/hpack"
+	tls "github.com/talha4real/utls"
+
+	"github.com/talha4real/fhttp/http2"
+	"github.com/talha4real/fhttp/http2/hpack"
 	"golang.org/x/term"
 )
 

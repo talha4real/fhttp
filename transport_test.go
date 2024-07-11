@@ -15,11 +15,11 @@ import (
 	"compress/gzip"
 	"context"
 	"crypto/rand"
-	tls "github.com/ShadeRobotics/utls"
 	"crypto/x509"
 	"encoding/binary"
 	"errors"
 	"fmt"
+	tls "github.com/talha4real/utls"
 	"go/token"
 	"io"
 	"log"
@@ -38,12 +38,12 @@ import (
 	"testing/iotest"
 	"time"
 
-	. "github.com/ShadeRobotics/fhttp"
-	"github.com/ShadeRobotics/fhttp/httptest"
-	"github.com/ShadeRobotics/fhttp/httptrace"
-	"github.com/ShadeRobotics/fhttp/httputil"
-	"github.com/ShadeRobotics/fhttp/internal"
-	"github.com/ShadeRobotics/fhttp/internal/nettrace"
+	. "github.com/talha4real/fhttp"
+	"github.com/talha4real/fhttp/httptest"
+	"github.com/talha4real/fhttp/httptrace"
+	"github.com/talha4real/fhttp/httputil"
+	"github.com/talha4real/fhttp/internal"
+	"github.com/talha4real/fhttp/internal/nettrace"
 
 	"golang.org/x/net/http/httpguts"
 )
@@ -3428,6 +3428,7 @@ func (c writerFuncConn) Write(p []byte) (n int, err error) { return c.write(p) }
 //   - we reused a keep-alive connection
 //   - we haven't yet received any header data
 //   - either we wrote no bytes to the server, or the request is idempotent
+//
 // This automatically prevents an infinite resend loop because we'll run out of
 // the cached keep-alive connections eventually.
 func TestRetryRequestsOnError(t *testing.T) {

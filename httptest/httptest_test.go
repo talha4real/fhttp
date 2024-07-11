@@ -5,14 +5,15 @@
 package httptest
 
 import (
-	tls "github.com/ShadeRobotics/utls"
 	"io"
 	"net/url"
 	"reflect"
 	"strings"
 	"testing"
 
-	http "github.com/ShadeRobotics/fhttp"
+	tls "github.com/talha4real/utls"
+
+	http "github.com/talha4real/fhttp"
 )
 
 func TestNewRequest(t *testing.T) {

@@ -4,7 +4,7 @@
 
 package cookiejar_test
 
-import "github.com/ShadeRobotics/fhttp/cookiejar"
+import "github.com/talha4real/fhttp/cookiejar"
 
 type dummypsl struct {
 	List cookiejar.PublicSuffixList
